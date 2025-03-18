@@ -90,7 +90,7 @@ def create_argparser():
     defaults.update(model_and_diffusion_defaults())
     
     '''
-    DATA_FLAGS="--data_dir ./data/Aperio/ --random_crop True --random_flip True --stain_database_path ./stain_augmentation/database_color_variations.pickle --nearest_neighbours 5 --sigma_perturb 0.1 --sigma1 0.7 --sigma2 0.7 --shift_value 25 --color_threshold 1000 --stain_threshold 1000000 --gaussian_blur True"
+    DATA_FLAGS="--data_dir ./data/Aperio/ --stain_database_path ./stain_augmentation/stain_database.pickle --random_crop True --random_flip True --nearest_neighbours 5 --sigma_perturb 0.1 --sigma1 0.7 --sigma2 0.7 --shift_value 25 --color_threshold 1000 --stain_threshold 1000000 --gaussian_blur True"
     MODEL_FLAGS="--attention_resolutions 32,16,8 --image_size 512 --num_channels 128 --num_res_blocks 3 --use_scale_shift_norm True"
     DIFFUSION_FLAGS="--diffusion_steps 1000 --noise_schedule linear" 
     TRAIN_FLAGS="--lr 1e-4 --batch_size 2"
@@ -103,7 +103,7 @@ def create_argparser():
         data_dir="./data/Aperio/",
         random_crop=True,
         random_flip=True,
-        stain_database_path='./stain_augmentation/database_color_variations.pickle',
+        stain_database_path='./stain_augmentation/stain_database.pickle',
         nearest_neighbours=5,
         sigma_perturb=0.1,
         sigma1=0.7,
