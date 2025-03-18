@@ -51,7 +51,7 @@ bash test.sh
 ```
 - input_path <Input_data_path>
 - save_path <Output_data_path>
-- model_path your <checkpoint_model_path>
+- model_path <your_checkpoint_model_path>
 - timestep_step <the_initial_sampling_point>
 - timestep_respacing <the_sampling_step_size>
 - use_anysize <Restore_Any-size_Image_sampling_strategy>
