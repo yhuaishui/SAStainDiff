@@ -1,5 +1,5 @@
 # SAStainDiff
-[BSPC] The official code of ["Self-supervised Stain Normalization by Stain Augmentation using Denoising Diffusion Probabilistic Models"](https://github.com/yhuaishui/SAStainDiff/).
+[BSPC] The official code of ["SAStainDiff: Self-supervised Stain Normalization by Stain Augmentation using Denoising Diffusion Probabilistic Models"](https://github.com/yhuaishui/SAStainDiff/).
 
 In this paper, we propose a new self-supervised diffusion probabilistic modeling approach for stain normalization with a rescheduled sampling strategy.
 <p align="center">
