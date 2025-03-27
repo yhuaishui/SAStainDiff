@@ -1,7 +1,7 @@
 # input_path: your data path
 # save_path: your sample result path
 # model_path your checkpoint path
-# timestep_step: the initial sampling point
+# timestep_step: the initial sampling point (start noise level)
 # timestep_respacing: the sampling step size
 # use_anysize: Restore Any-size Image sampling strategy
 # use_ddim: DDIM sampling strategy
