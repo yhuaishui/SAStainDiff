@@ -1,5 +1,5 @@
 # SAStainDiff
-[BSPC] The official code of ["SAStainDiff: Self-supervised Stain Normalization by Stain Augmentation using Denoising Diffusion Probabilistic Models"](https://github.com/yhuaishui/SAStainDiff/).
+[BSPC] The official code of ["SAStainDiff: Self-supervised Stain Normalization by Stain Augmentation using Denoising Diffusion Probabilistic Models"](https://www.sciencedirect.com/science/article/abs/pii/S1746809425003726).
 
 In this paper, we propose a new self-supervised diffusion probabilistic modeling approach for stain normalization with a rescheduled sampling strategy.
 <p align="center">
@@ -39,23 +39,23 @@ To train the model, modify the settings in the train.sh, and run:
 ```train
 bash train.sh
 ```
-- data_dir <Input_data_path>
-- stain_database_path <Input_database_path>
-- checkpoint_path <Output_checkpoint_path>
-- resume_checkpoint <checkpoint_model_path_for_continue_training>
+- `data_dir`. Input data path
+- `stain_database_path`. Input database path
+- `checkpoint_path`. Output checkpoint path
+- `resume_checkpoint`. Checkpoint model path for continued training
 
 To test the model, modify the settings in the test.sh, and run:
 
 ```test
 bash test.sh
 ```
-- input_path <Input_data_path>
-- save_path <Output_data_path>
-- model_path <your_checkpoint_model_path>
-- timestep_step <the_initial_sampling_point>
-- timestep_respacing <the_sampling_step_size>
-- use_anysize <Restore_Any-size_Image_sampling_strategy>
-- use_ddim <DDIM_sampling_strategy>
+- `input_path`. Input data path
+- `save_path`. Output data path
+- `model_path`. Your checkpoint model path
+- `timestep_step`. The initial sampling point. Default is 900.
+- `timestep_respacing`. The sampling step size. Default is ddim5.
+- `use_anysize`. Restore Any-size Image sampling strategy. Default is False.
+- `use_ddim`. DDIM sampling strategy. Default is True.
   
 ## Citation
 
