@@ -58,7 +58,18 @@ bash test.sh
 - `use_ddim`. DDIM sampling strategy. Default is True.
   
 ## Citation
-
+If you find this work useful, don't forget to star the repo ⭐ and cite the paper:
+```
+@article{yang2025sastaindiff,
+  title={SAStainDiff: Self-supervised stain normalization by stain augmentation using denoising diffusion probabilistic models},
+  author={Yang, Huaishui and Lyu, Mengye and Yan, Shiyue and Zhong, Tianzhao and Li, Jihao and Xu, Tong and Xie, Huhan and Liu, Shaojun},
+  journal={Biomedical Signal Processing and Control},
+  volume={107},
+  pages={107861},
+  year={2025},
+  publisher={Elsevier}
+}
+```
 ## Feedback
 
 For any feedback or inquiries, please contact yanghuaishui@foxmail.com
